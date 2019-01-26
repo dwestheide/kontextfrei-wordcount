@@ -1,11 +1,11 @@
-val kontextfreiVersion = "0.6.0"
-val spark                = "org.apache.spark"    %% "spark-core"                        % "2.2.0"
+val kontextfreiVersion = "0.8.0"
+val spark                = "org.apache.spark"    %% "spark-core"                        % "2.4.0"
 val scalatest            = "org.scalatest"       %% "scalatest"                         % "3.0.5" % "test,it"
 val scalacheck           = "org.scalacheck"      %% "scalacheck"                        % "1.14.0" % "test,it"
-val kontextfreiCore      = "com.danielwestheide" %% "kontextfrei-core-spark-2.2.0"      % kontextfreiVersion
-val kontextfreiScalaTest = "com.danielwestheide" %% "kontextfrei-scalatest-spark-2.2.0" % kontextfreiVersion % "test,it"
+val kontextfreiCore      = "com.danielwestheide" %% "kontextfrei-core-spark-2.4.0"      % kontextfreiVersion
+val kontextfreiScalaTest = "com.danielwestheide" %% "kontextfrei-scalatest-spark-2.4.0" % kontextfreiVersion % "test,it"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.12.8"
 
 lazy val ItTest = config("it") extend Test
 
