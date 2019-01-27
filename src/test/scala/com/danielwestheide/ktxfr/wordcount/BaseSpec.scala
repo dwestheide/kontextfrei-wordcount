@@ -1,4 +1,4 @@
-package com.danielwestheide.kontextfrei.wordcount
+package com.danielwestheide.ktxfr.wordcount
 
 import com.danielwestheide.kontextfrei.scalatest.KontextfreiSpec
 import com.danielwestheide.kontextfrei.syntax.DistributionSyntaxSupport

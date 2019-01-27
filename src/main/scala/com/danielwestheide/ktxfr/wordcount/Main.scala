@@ -1,4 +1,4 @@
-package com.danielwestheide.kontextfrei.wordcount
+package com.danielwestheide.ktxfr.wordcount
 
 import com.danielwestheide.kontextfrei.rdd.RDDOpsSupport
 import org.apache.spark.SparkContext

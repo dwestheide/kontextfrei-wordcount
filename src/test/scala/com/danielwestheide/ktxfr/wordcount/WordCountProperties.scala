@@ -1,4 +1,4 @@
-package com.danielwestheide.kontextfrei.wordcount
+package com.danielwestheide.ktxfr.wordcount
 
 trait WordCountProperties[F[_]] extends BaseSpec[F] with WordCount {
 
